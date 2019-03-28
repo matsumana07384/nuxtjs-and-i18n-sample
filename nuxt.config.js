@@ -1,5 +1,7 @@
 import pkg from './package'
 
+// Nuxt.js のカスタム設定を記述
+
 export default {
   mode: 'universal',
 
@@ -32,20 +34,23 @@ export default {
   /*
   ** Plugins to load before mounting the App
   */
-  //--- ここから
+  //ルートの Vue.js アプリケーションをインスタンス化する前に実行したい JavaScript plugin を指定
   plugins: [
     '~/plugins/i18n.js'
   ],
+  // 
   vendor: [
     'vue-i18n'  
   ],
+  // Nuxt.js のルーター（vue-router）をカスタマイズ
   router: {
     middleware: 'i18n'
   },
+  //アプリケーションをビルドして、ルートごとに HTML ファイルを生成
   generate: {
     routes: ['/', '/about', '/en', '/en/index']
   } ,
-  //--- ここまで
+  //--- ここまで追加
   /*
   ** Nuxt.js modules
   */

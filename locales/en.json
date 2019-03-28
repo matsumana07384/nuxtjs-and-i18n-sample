@@ -7,7 +7,9 @@
   },
   "home": {
     "title": "Hello,World!",
-    "introduction": "This is an introduction in English."
+    "introduction": "This is an introduction in English.",
+    "documentation": "Documentation",
+    "gitHub":"GitHub"
   },
   "about": {
     "title": "About",

@@ -13,12 +13,15 @@
           href="https://nuxtjs.org/"
           target="_blank"
           class="button--green"
-        >Documentation</a>
+          v-t="'home.documentation'"
+        >
+        </a>
         <a
           href="https://github.com/nuxt/nuxt.js"
           target="_blank"
           class="button--grey"
-        >GitHub</a>
+          v-t="'home.github'"
+        ></a>
       </div> 
     </div>
   </section>
