@@ -2,8 +2,8 @@
 2019/03/25に開催するサポーターズCoLabの勉強会のサンプルリポジトリです。
 [イベント概要](https://supporterzcolab.com/event/776/)
 
-### 作成手順
-（Qiitaのリンク追加予定）
+### 手順
+[Nuxt.jsで多言語化デビューしよう！](https://qiita.com/matsumana07384/items/4b9731d46c3698b464d8)
 
 ### 起動手順
 gitリポジトリをPull
