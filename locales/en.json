@@ -1,0 +1,19 @@
+{
+  "links": {
+    "home": "Home",
+    "about": "About",
+    "en": "English",
+    "ja": "Japanese"
+  },
+  "home": {
+    "title": "Hello,World!",
+    "introduction": "This is an introduction in English.",
+    "documentation": "Documentation",
+    "github":"GitHub"
+  },
+  "about": {
+    "title": "About",
+    "introduction": "This page is made to give you more informations."
+  }
+}
+ 
